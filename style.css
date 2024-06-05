@@ -161,9 +161,12 @@ main {
 
     }
 
+    .tema {
+        gap: 16px;
+    }
+
     .tema img {
         width: 24px;
-        gap: 16px;
     }
 
     .tema button {
