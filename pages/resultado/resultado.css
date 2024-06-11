@@ -156,7 +156,7 @@ main button {
     transition: background 0.3s;
 }
 
-main :hover {
+main button:hover {
     background: var(--purple-hover);
     cursor: pointer;
 }
@@ -200,5 +200,21 @@ main :hover {
     .tema button div {
         width: 20px;
         height: 20px;
+    }
+
+    main {
+        display: flex;
+        gap: 140px;
+        max-width: 1160px;
+        margin-inline: auto;
+    }
+
+    main h2,
+    main > div {
+        width: 100%;
+    }
+
+    main h2 {
+        font-size: 64px;
     }
 }
